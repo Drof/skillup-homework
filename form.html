@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="form.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+       <table border="1">
+            <thead>
+               <tr>
+                  <th><b>Name</b></th>
+                  <th><b>Value</b></th>
+               </tr>
+            </thead>
+            <tbody>
+                <tr>
+                  <td>Name</td>
+                  <td><label for="name"><input name="name" type="text"></label></td>
+               </tr>
+               <tr>   
+                     <td><label for="radio"> Sex </label></td>
+                     <td>
+                      <input type="radio" name="radio" >Male <br>
+                      <input type="radio" name="radio" >Female
+                     </td>  
+                </tr>
+                <tr>
+                    <td>Eye color</td>
+                    <td>
+                        <select>
+                            <option>green</option>
+                            <option>black</option>
+                            <option>blue</option>
+                            <option>grey</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Check all that apply</td>
+                    <td>
+                            <input type="checkbox" >Over 6 feet tall <br>
+                            <input type="checkbox" >Over 200 pounds
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        Describe your athletic ability: <br>
+                        <textarea></textarea>
+                    </td>
+                </tr>
+                <tr> 
+                    <td colspan="2">
+                        <button>Enter my infomation</button>
+                    </td>
+                    
+                </tr>
+            </tbody>
+       </table>
+</form>
+
+</body>
+</html>

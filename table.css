@@ -1,0 +1,24 @@
+table{
+    border-collapse: collapse;
+    border: 3px solid black;
+    width: 35%;
+    height: 200px;
+}
+thead td {
+    border: 2px solid black;
+}
+thead tr {
+    border: 2px solid black;
+}
+thead th {
+    border: 2px solid black;
+}
+tbody td {
+    border:2px solid gray;
+}
+tbody tr{
+    border: 2px solid gray;
+}
+tbody th{
+    border: 2px solid gray;
+}
